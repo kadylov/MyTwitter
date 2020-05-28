@@ -1,0 +1,134 @@
+/* The styles for the elements */
+
+.topnav > a {
+    float: left;
+    display: block;
+    /*color: #f2f2f2;*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin: 0 auto;
+    /*padding-top: 18.25em;*/
+    /*width: 800px;*/
+    width: 100%;
+
+    background-color: #F1F1F1;
+    padding-top: 75px;
+
+}
+p {     
+    font-size: 140%;
+    color: black;
+    margin-bottom: .5em;
+    margin-left: 0.4em;     
+}
+label {
+    float: left;
+    width: 10em;
+    margin-left: 0.5em; 
+    margin-bottom: 0.35em;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="password"] {  /* An attribute selector */
+    margin-left: 0.5em;    
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+    margin-right: 0.25em;
+    font: Tahoma;
+    /*font-size: calc;*/
+    /*width: 100px;*/
+    /*height: 4%;*/
+}
+input[type="date"]{
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+    margin-top: 0.25em;
+
+    font: Tahoma;
+    font-size: 10;
+    width: 175px;
+    height: 4%;
+}
+
+
+.select {
+    width: 180px;
+    margin-left: 0.5em;    
+    margin-top: 0.4em;
+    background-color: white;
+
+
+}
+
+span {
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+
+/* The styles for the classes */
+.notVisible {
+    display: none;
+}
+
+.errorContainer{
+    margin-left: 0.5em;    
+
+    font: Tahoma, 10;
+    color: red;
+    margin-bottom: 0.5em;
+}
+
+.header{
+    padding: 43px;
+    /*text-align: center;*/
+    background: white;
+    color: white;
+}
+
+.formContainer{
+    padding: 10px 5px 10px 32px;
+    background-color: white;
+}
+
+.margin_left {
+    margin-left: 0.5em;
+}
+
+.pad_top {
+    padding-top: 0.60em;
+}
+
+.invAnswer{
+    float: left;
+    width: 10em;
+    margin-left: 0.5em; 
+    margin-bottom: 0.35em;
+    font-weight: bold;
+    /*margin-bottom: 82px;*/
+}
+
+.rememb_me{
+    vertical-align: -2.5px;
+}
+.forgot{
+    margin-left: 22px;
+}
+.signout{
+    margin-left: 1480px;
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
